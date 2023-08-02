@@ -1,8 +1,6 @@
 import numpy as np
 import pickle
 import streamlit as st
-import sys
-sys.path.insert(1, "C:\Users\devan\AppData\Local\Programs\Python\Python311\Scripts\streamlit")
 from streamlit_option_menu import option_menu
 
 diabetes_model = pickle.load(open('trained_diabetes_model.sav','rb'))
